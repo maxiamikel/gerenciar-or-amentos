@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+use App\Http\Controllers\homeController;
+use App\Http\Controllers\novoOrcamentoController;
+use App\Http\Controllers\OrcamentoController;
+
+Route::get('/', [homeController::class, 'index']);
+Route::get('/orcamentos/novo', [novoOrcamentoController::class, 'index'] );
+Route::get('/orcamentos/lista', [OrcamentoController::class, 'index']);
