@@ -28,13 +28,10 @@
       <td>{{$orcamento->previsao_entrega}}</td>
       <td>Estado/ Iniciado</td>
       <td>{{$orcamento->custo}}</td>
-      <td>Editar / Finalizar</td>
+      <td><a href= "#"> Editar </a> / <a href= "#"> Finalizar </a></td>
     </tr>
     
 @endforeach
   </tbody>
 </table>
-
-    
-
 @endsection
