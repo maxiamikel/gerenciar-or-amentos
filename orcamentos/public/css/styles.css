@@ -83,7 +83,34 @@ header {
 }
 
 #cards-container {
-    background-color: #320e86;
+    background-color: #F1F1F1;
     padding: 0;
     margin: 10px;
+    justify-content: center;
+}
+
+.home-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding-bottom: 10px;
+}
+
+.card {
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    width: 98%;
+}
+
+.content-body {
+    justify-content: center;
+    align-items: center;
+}
+
+.custo {
+    font-weight: bold;
+    font-size: 34px;
+    color: #320e86;
 }

@@ -4,10 +4,13 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Models\Cliente;
+
 class novoOrcamentoController extends Controller
 {
     public function index()
     {
-        return view('orcamentos.novo');
+        $clientes = Cliente::all();
+        return view('orcamentos.novo',['clientes' => $clientes]);
     }
 }

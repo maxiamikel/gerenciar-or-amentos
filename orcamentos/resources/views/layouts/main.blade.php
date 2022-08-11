@@ -32,7 +32,7 @@
         <a class="nav-item nav-link" href="#">Novo Funcionario</a>
         </li>
         <li class="nav-item">
-        <a class="nav-item nav-link" href="#">Novo Cliente</a>
+        <a class="nav-item nav-link" href="/clientes/novo">Novo Cliente</a>
         </li>
         <li class="nav-item">
         <a class="nav-item nav-link" href="/orcamentos/lista">Orçamentos</a>
@@ -41,13 +41,13 @@
         
         </li>
         <li class="nav-item">
-        <a class="nav-item nav-link" href="#">Clientes</a>
+        <a class="nav-item nav-link" href="/clientes/lista">Clientes</a>
         </li>
         <li class="nav-item">
         <a class="nav-item nav-link" href="#">Funcionarios</a>
         </li>
         <li class="nav-item">
-        <a class="nav-item nav-link" href="#">Contactos</a>
+        <a class="nav-item nav-link" href="/clientes/novo">Contactos</a>
         </li>
       </ul>
       <form class="d-flex" role="search">

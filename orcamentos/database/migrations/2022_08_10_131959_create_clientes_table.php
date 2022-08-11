@@ -13,14 +13,16 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('orcamentos', function (Blueprint $table) {
+        Schema::create('clientes', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string("descripcao");
-            $table->string("cliente");
-            $table->date("data_inicio");
-            $table->date("previsao_entrega");
-            $table->float("custo");
+            $table->string("nome");
+            $table->string("cpf");
+            $table->integer("endereco");
+            $table->string("telefone");
+            $table->string("email");
+            $table->float("desconto");
+            $table->integer("orcamento");
         });
     }
 
@@ -31,6 +33,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('orcamentos');
+        Schema::dropIfExists('clientes');
     }
 };
