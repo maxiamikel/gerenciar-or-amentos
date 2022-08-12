@@ -8,7 +8,7 @@ class FuncionarioController extends Controller
 {
     public function index()
     {
-        return view('cunfionarios.novo');
+        return view('funcionarios.novo');
     }
 
     public function listar()

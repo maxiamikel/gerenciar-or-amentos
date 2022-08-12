@@ -37,9 +37,7 @@
         <li class="nav-item">
         <a class="nav-item nav-link" href="/orcamentos/lista">Orçamentos</a>
         </li>
-        <li class="nav-item">
-        
-        </li>
+       
         <li class="nav-item">
         <a class="nav-item nav-link" href="/clientes/lista">Clientes</a>
         </li>
@@ -47,7 +45,7 @@
         <a class="nav-item nav-link" href="/funcionarios/lista">Funcionarios</a>
         </li>
         <li class="nav-item">
-        <a class="nav-item nav-link" href="/clientes/novo">Contactos</a>
+        <a class="nav-item nav-link" href="/contatos/novo">Contactos</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
