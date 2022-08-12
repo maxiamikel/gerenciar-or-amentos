@@ -22,7 +22,7 @@
                     <option>Selecionar um(a) cliente</option>
 
                     @foreach($clientes as $cliente)
-                        <option value={{$cliente->id}}> {{$cliente->cpf}} / {{$cliente->nome}} </option>
+                        <option value={{$cliente->cpf}}> {{$cliente->cpf}} / {{$cliente->nome}} </option>
                     @endforeach
                 </select>
             </div>
@@ -30,7 +30,7 @@
             <div class="form-group">
                 <label for="entrega"> Data contratação: </label>
 
-                <input type="date" class="form-control" id="inicio" name="data_inicio" > 
+                <input type="text" class="form-control" id="inicio" name="data_inicio" value="<?php echo date("Y-m-d") ?>"  > 
             </div>
 
             <div class="form-group">
@@ -40,11 +40,10 @@
 
             <div class="form-group">
                 <label for="custo"> Custo: </label>
-                <input type="text" class="form-control" id="custo" name="custo" placeholder="" />
+                <input type="number" class="form-control" id="custo" name="custo" placeholder="" />
             </div>
             <input type="hidden" name="estado" value="0">
-            <input type="hidden" name="cliente" id="cliente" value="Cliente" >
-            <div class="form-group">
+            <div class="form-group" id="control-form">
                 <input type="submit" class="btn btn-primary" id="" name="" value="Salvar" />
             </div>
              

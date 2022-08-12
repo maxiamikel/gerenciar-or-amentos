@@ -9,7 +9,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link href="/css/styles.css" rel="stylesheet" />
-        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
     </head>
     <body>
     
@@ -29,7 +29,7 @@
         <a class="nav-item nav-link" href="/orcamentos/novo">Novo Orçamento</a>
         </li>
         <li class="nav-item">
-        <a class="nav-item nav-link" href="#">Novo Funcionario</a>
+        <a class="nav-item nav-link" href="/funcionarios/novo">Novo Funcionario</a>
         </li>
         <li class="nav-item">
         <a class="nav-item nav-link" href="/clientes/novo">Novo Cliente</a>
@@ -44,7 +44,7 @@
         <a class="nav-item nav-link" href="/clientes/lista">Clientes</a>
         </li>
         <li class="nav-item">
-        <a class="nav-item nav-link" href="#">Funcionarios</a>
+        <a class="nav-item nav-link" href="/funcionarios/lista">Funcionarios</a>
         </li>
         <li class="nav-item">
         <a class="nav-item nav-link" href="/clientes/novo">Contactos</a>

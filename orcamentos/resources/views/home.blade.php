@@ -10,11 +10,12 @@
               <div class="card com-md-3">
                 <div class="card-body">
                     <div class="content-body">
-                       <p class="card-date">Data Orçamento: {{$orcamento->data_inicio}}</p>
-                       <p class="card-date">Previsão de entrega: {{$orcamento->previsao_entrega}}</p>
-                       <p class="andamento">Andamento: {{$orcamento->previsao_entrega}} - {{$orcamento->data_inicio}} </p>
-                        <h5 class="card-title">Cliente: <a href="/clientes" title="{{$orcamento->cliente}}">{{$orcamento->cliente}} </a></h5>
-                        <p class="card-text">{{$orcamento->descripcao}}</p>
+                       <p class="card-date"><span class="titulo-detalhes">Data Or&ccedil;amento:</span> <span class="detalhes">{{$orcamento->data_inicio}}</span></p>
+                       <p class="card-text"><span class="titulo-detalhes">Descri&ccedil;&atilde;o:</span> <span class="detalhes"> {{$orcamento->descripcao}}</span></p>
+                        <p class="card-text"><span class="titulo-detalhes">Especifica&ccedil;&atilde;o do cliente:</span> <span class="detalhes"> {{$orcamento->especificacao}}</span></p>
+                       <p class="card-date"><span class="titulo-detalhes">Previs&atilde;o de entrega:</span> <span class="detalhes"> {{$orcamento->previsao_entrega}}</span></p>
+                       <p class="andamento"><span class="titulo-detalhes">Andamento: </span> <span class="detalhes">{{$orcamento->previsao_entrega}} - {{$orcamento->data_inicio}} </span></p>
+                        <h5 class="card-title"><span class="titulo-detalhes">Cliente: </span> <a href="/clientes" title="{{$orcamento->cliente}}">{{$orcamento->cliente}} </a></h5>
                         <p class="custo">Custo: $R {{$orcamento->custo}}</p>
                     </div>
                     <div class="acao">

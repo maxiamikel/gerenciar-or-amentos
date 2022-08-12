@@ -22,7 +22,6 @@ return new class extends Migration
             $table->string("telefone");
             $table->string("email");
             $table->float("desconto");
-            $table->integer("orcamento");
         });
     }
 

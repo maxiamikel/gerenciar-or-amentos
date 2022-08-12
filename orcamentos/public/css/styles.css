@@ -114,3 +114,11 @@ header {
     font-size: 34px;
     color: #320e86;
 }
+
+.form-group label {
+    padding: 10px 0;
+}
+
+#control-form {
+    margin-top: 13px;
+}
